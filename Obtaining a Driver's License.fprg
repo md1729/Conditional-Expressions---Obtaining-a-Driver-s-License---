@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhammed"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-23 05:34:47 AM"/>
+        <attribute name="created" value="bXVoYW1tZWQ7REVMTDsyMDIzLTEyLTIzOzA1OjA3OjQ2IEFNOzI0MDE="/>
+        <attribute name="edited" value="bXVoYW1tZWQ7REVMTDsyMDIzLTEyLTIzOzA1OjM0OjQ3IEFNOzE7MjUxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your age.&quot;" newline="True"/>
+            <input variable="age"/>
+            <if expression="age&gt;=18">
+                <then>
+                    <output expression="&quot;You can get a driver license.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;You cannot a driver license.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

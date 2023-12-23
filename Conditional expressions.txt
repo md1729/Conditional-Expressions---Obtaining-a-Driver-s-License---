@@ -1,0 +1,21 @@
+Conditional Expressions - Obtaining a Driver's License - 
+
+
+Design the algorithm and flowchart that prints the messages "YOU CAN GET A LICENSE" 
+if the age of the person whose age is entered is older than 18, and "YOU CANNOT GET A LICENSE" if not.
+
+let's define a variable numerically
+
+declare-->integer age
+output-->"Enter your age."
+input--->age
+
+The result of a comparative statement is either true or false, there is no third possibility.
+
+If--->   age>18 true if not---> false.
+
+if true
+output--->"you can get a driver license."
+ifnot true
+output---->"you cannot a driver license."
+------------------------------------------------------------------------------------------------------------------------------------------------
